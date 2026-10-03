@@ -297,6 +297,11 @@ body {
     font-weight: 500;
 }
 
+.hero-illustration .card .label.redish {
+    background-color: #2A1E26;
+    color: var(--white);
+}
+
 .hero-illustration .card h4 {
     font-size: clamp(9px, 1.6vw, 28px);
     font-weight: 600;
@@ -423,6 +428,219 @@ body {
 /* 
 ==============================================
     CAPABILITY SECTION END
+==============================================
+*/
+
+/* 
+==============================================
+    PRICING SECTION START
+==============================================
+*/
+.pricing-section {
+    padding: clamp(50px, 5vw, 100px) 0px;
+    color: var(--white);
+}
+
+.pricing-card-wrapper {
+    max-width: 850px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: clamp(20px, 2vw, 50px);
+    border-radius: 20px;
+    background-color: #151A25;
+}
+
+.range-slider-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.range-slider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.range-slider-title {
+    font-size: clamp(12px, 1.2vw, 14px);
+    font-weight: 600;
+    color: var(--white);
+    opacity: 0.8;
+}
+
+.range-slider-value {
+    font-size: clamp(12px, 3vw, 16px);
+    font-weight: 700;
+    color: var(--white);
+}
+
+#dataVal {
+    color: #F59E0B;
+}
+
+.range-custom-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #1e293b;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.range-custom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ff5722;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+#storageSlider.range-custom-slider::-webkit-slider-thumb {
+    background: #F59E0B;
+}
+
+.range-custom-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+.range-custom-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ff5722;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(255, 87, 34, 0.5);
+}
+
+.range-slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #64748b;
+}
+
+.annual-billing {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+    background: #0F1728;
+}
+
+.annual-billing p {
+    font-size: clamp(12px, 1.6vw, 14px);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.annual-billing span {
+    font-size: clamp(10px, 1.6vw, 12px);
+    color: #00b978;
+    display: block;
+}
+
+
+.annual-switch input {
+    cursor: pointer;
+    height: clamp(20px, 1.6vw, 25px);
+    width: clamp(40px, 5vw, 45px) !important;
+    display: block;
+}
+
+.form-check-input:checked {
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+
+.form-switch .form-check-input:focus {}
+
+
+.pricing-card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: clamp(15px, 1.5vw, 30px);
+    border-radius: 15px;
+    background-color: #0B101C;
+}
+
+.pricing-card .tag {
+    display: inline-block;
+    font-size: clamp(8px, 5vw, 12px);
+    background-color: #25181B;
+    font-weight: 500;
+    color: var(--white);
+    padding: 3px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.pricing-card p {
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.pricing-card h2 {
+    font-size: clamp(25px, 5vw, 32px);
+    font-weight: 600;
+    color: var(--white);
+    margin: 0px 0px;
+    margin-top: 10px;
+}
+
+.pricing-card h2 small {
+    font-size: clamp(12px, 1.6vw, 14px);
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.pricing-card span {
+    font-size: 10px;
+    color: #00b978;
+    display: inline-block;
+}
+
+.pricing-card-list {
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.pricing-card-list li {
+    font-size: clamp(10px, 1.6vw, 12px);
+    font-weight: 400;
+    color: var(--white);
+    opacity: .8;
+    margin: 10px 0;
+}
+
+.pricing-card-list li i {
+    color: var(--dark-orange);
+}
+
+.pricing-card-btn {
+    margin-top: 30px;
+}
+
+.pricing-card-btn button {
+    width: 100%;
+    display: block;
+    padding: 15px 10px;
+}
+
+/* 
+==============================================
+    PRICING SECTION END
 ==============================================
 */
 
